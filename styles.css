@@ -42,7 +42,7 @@ button{
 
 
 .main-container{
-    background-color:  hsl(0, 0%, 95%);
+    /* background-color:  hsl(0, 0%, 95%); */
     padding: 80px 15px 80px 15px;
 }
 
@@ -64,4 +64,35 @@ button{
 .container-3{
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 0 10px 10px;
+}
+
+.attribution{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (min-width:703px) {
+   .main-container{
+       display: flex;
+       justify-content: center;
+       padding: 150px;
+   }
+   .container-1{
+       flex: 1;
+       border-radius: 10px 0 0 10px;
+
+   }
+   .container-2{
+    flex: 1;
+    }
+    .container-3{
+        flex: 1;
+        border-radius: 0 10px 10px 0;
+    }
+    button{
+        margin-top: 80px;
+    }
+    
 }
