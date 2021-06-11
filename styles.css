@@ -47,7 +47,7 @@ button{
 }
 
 .container-1 ,.container-2 ,.container-3{
-   padding: 45px;
+   padding: 50px 45px 50px 45px;
 }
 
 .container-1{
