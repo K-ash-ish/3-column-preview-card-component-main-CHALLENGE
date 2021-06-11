@@ -20,7 +20,7 @@ p{
 
 button{
     border-radius:30px 30px 30px 30px  ;
-    padding:15px 32px 15px 32px;
+    padding:20px 32px 15px 32px;
     border:0;
     font-family: 'Lexend Deca', sans-serif;
     font-weight:400;
@@ -76,7 +76,6 @@ button{
 @media screen and (min-width:703px) {
    .main-container{
        display: flex;
-       justify-content: center;
        padding: 150px;
    }
    .container-1{
@@ -93,6 +92,7 @@ button{
     }
     button{
         margin-top: 80px;
+        
     }
     
 }
