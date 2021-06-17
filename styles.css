@@ -71,6 +71,7 @@ button{
 @media screen and (min-width:703px) {
    .main-container{
        display: flex;
+       max-width: 1024px;
        /* margin: 50px 250px 40px 250px; */
        margin: 0 auto;
    }
