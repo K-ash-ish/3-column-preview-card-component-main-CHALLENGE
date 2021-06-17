@@ -71,9 +71,8 @@ button{
 @media screen and (min-width:703px) {
    .main-container{
        display: flex;
-       max-width: 1024px;
-       /* margin: 50px 250px 40px 250px; */
        margin: 0 auto;
+       max-width: 1024px;
    }
    .container-1, .container-2 , .container-3{    
     display: flex;
@@ -82,15 +81,10 @@ button{
     align-items: start;
 } 
 .container-1{
-    /* flex: 1; */
     border-radius: 10px 0 0 10px;
 
 }
-/* .container-2{
- flex: 1;
- } */
  .container-3{
-     /* flex: 1; */
      border-radius: 0 10px 10px 0;
  }
  
